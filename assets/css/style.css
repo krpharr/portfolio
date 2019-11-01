@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/45degreee_fabric/45degreee_fabric.png");
+    /* background-image: url("../images/creampaper/creampaper.png"); */
+    /* background-image: url("../images/handmadepaper/handmadepaper.png"); */
+    /* background-image: url("../images/natural_paper/natural_paper.png"); */
+    /* background-image: url("../images/ricepaper_v3/ricepaper_v3.png"); */
+}
+
+.header {
+    margin-left: 0;
+    margin-bottom: 130px;
+    background-color: rgba(255,255,255,0.9);
+    height: 65px;
+    border-bottom: solid 1px #eaeaea;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    top: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+.content {
+    padding: 60px;
+    min-height: 100%;
+    width: 960px;
+    margin: 0 auto -180px;
+}
+  
+
+.push {
+    height: 180px;
+    
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    height: 180px;
+    background-color: #666666;
+}
