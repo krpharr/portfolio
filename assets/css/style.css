@@ -28,12 +28,12 @@ html, body {
     min-height: 100%;
     width: 960px;
     margin: 0 auto -180px;
+    background-color: #ffffff;
+    border: 1px #dddddd red;
 }
   
-
 .push {
     height: 180px;
-    
 }
 
 .footer {
