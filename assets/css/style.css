@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-image: url("../images/45degreee_fabric/45degreee_fabric.png");
     /* background-image: url("../images/creampaper/creampaper.png"); */
@@ -10,7 +15,7 @@ body {
     margin-left: 0;
     margin-bottom: 130px;
     background-color: rgba(255,255,255,0.9);
-    height: 65px;
+    height: 68px;
     border-bottom: solid 1px #eaeaea;
     position: fixed;
     width: 100%;
@@ -18,26 +23,52 @@ body {
     top: 0;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-  
-.content {
-    padding: 60px;
-    min-height: 100%;
+.menu-container {
     width: 960px;
-    margin: 0 auto -180px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    margin: 8px;
+    background-color: rgba(255,255,255,0.9);
+}  
+
+.content {
+    /* padding: 60px; */
+    /* min-height: 100%; */
+    /* display: block; */
+    height: auto;
+    width: 960px;
+    margin: 80px auto -180px;
     background-color: #ffffff;
     border: 1px #dddddd red;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
 }
   
 .push {
     height: 180px;
+    overflow: auto;
+    /* display: block; */
 }
 
 .footer {
     border-top: 8px solid #4aaaa5;
-    height: 180px;
+    height: 68px;
     background-color: #666666;
 }
