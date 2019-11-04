@@ -1,6 +1,17 @@
 html, body {
     height: 100%;
     margin: 0;
+
+    background-color: lightgray;
+}
+
+div h1 {
+    box-sizing: border-box;
+    border: solid red 1px;
+}
+
+h1 {
+    font-size: 24px;
 }
 
 body {
@@ -12,11 +23,11 @@ body {
 }
 
 .header {
-    margin-left: 0;
-    margin-bottom: 130px;
+    margin: 0;
+    /* margin-bottom: 130px; */
     background-color: rgba(255,255,255,0.9);
     height: 68px;
-    border-bottom: solid 1px #eaeaea;
+    border-bottom: solid 1px #cccccc;
     position: fixed;
     width: 100%;
     z-index: 500;
@@ -29,10 +40,21 @@ body {
     margin-right: auto;    
 }
 
+.menu-container h1 {
+    color:  rgba(255,255,255,0.9);
+    background-color: #4aaaa5;
+    height: 68px;
+    
+    float: left;
+    margin: 0;
+    padding: 16px 20px 0 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 0 0;;
+    height: 48px;
 }
 
 li {
@@ -46,35 +68,26 @@ li a {
 }  
 
 
+.wrapper {
+    padding: 0px;
+    min-height: 100%;
+    margin: 0px 0 -148px;
+}
 
-.content {
-    /* padding: 60px; */
-    /* min-height: 100%; */
-    /* display: block; */
-    height: auto;
+.profile {
     width: 960px;
-    margin: 80px auto -68px;
     background-color: #ffffff;
-    border: 1px #dddddd red;
+    margin-top: 88px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {
-    margin: 0;
-    padding: 20px;
-}
-  
+.footer,
 .push {
-    height: 180px;
-    overflow: auto;
-    /* display: block; */
+    height: 68px;
 }
 
 .footer {
     border-top: 8px solid #4aaaa5;
-    height: 68px;
     background-color: #666666;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
+ }
