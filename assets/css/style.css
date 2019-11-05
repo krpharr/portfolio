@@ -11,27 +11,17 @@ html, body {
     box-sizing: border-box;
 }
 
-/* div h1 {
-    box-sizing: border-box;
-    border: solid red 1px;
-} */
-
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 body {
     background-image: url("../images/45degreee_fabric/45degreee_fabric.png");
-    /* background-image: url("../images/creampaper/creampaper.png"); */
-    /* background-image: url("../images/handmadepaper/handmadepaper.png"); */
-    /* background-image: url("../images/natural_paper/natural_paper.png"); */
-    /* background-image: url("../images/ricepaper_v3/ricepaper_v3.png"); */
     background-repeat: repeat;
 }
 
 .header {
     margin: 0;
-    /* margin-bottom: 130px; */
     background-color:#ffffff;
     height: 90px;
     border-bottom: solid 2px #cccccc;
@@ -93,7 +83,6 @@ body {
     text-decoration: none;
 }
 
-
 .wrapper {
     clear: both;
     overflow: auto;
@@ -144,7 +133,6 @@ p {
 }
 
 .project h3 {
-    /* box-sizing: border-box; */
     width: 100%;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color:  rgba(255,255,255,0.9);
@@ -187,7 +175,6 @@ input[type=text] {
 }
   
 input[type=submit] {
-    /* width: 100%; */
     font-size: 18px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -206,7 +193,6 @@ input[type=submit] {
 .footer,
 .push {
     clear: both;
-    /* overflow: auto; */
     height: 90px;
 }
 
