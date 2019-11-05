@@ -48,7 +48,7 @@ body {
 .menu-container h1 {
     color:  rgba(255,255,255,0.9);
     background-color: #4aaaa5;
-    height: 90px;
+    height: 88px;
     float: left;
     margin: 0;
     padding: 20px;
@@ -100,7 +100,7 @@ li a:active {
     margin: 0px 0 -90px;
 }
 
-.profile {
+.content {
     width: 960px;
     background-color: #ffffff;
     margin-top: 140px;
@@ -110,7 +110,7 @@ li a:active {
     border: solid 1px #cccccc;
 }
 
-.profile h1 {
+.content h1 {
     color: #4aaaa5;
     border-bottom: solid 2px #cccccc;
     margin: 20px 0 20px;
@@ -124,6 +124,17 @@ li a:active {
 
 p {
     line-height: 2.5;
+}
+
+.project {
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.project h3 {
+    color:  rgba(255,255,255,0.9);
+    background-color: #4aaaa5;
+    padding: 20px;
 }
 
 .footer,
