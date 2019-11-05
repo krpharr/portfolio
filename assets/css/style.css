@@ -214,5 +214,7 @@ input[type=submit] {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
-    padding: 28px;
+    padding: 52px 0 0 0;
+    font-size: 12px;
+    color: lightgrey;
  }
