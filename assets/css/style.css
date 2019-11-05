@@ -4,16 +4,17 @@ html, body {
     background-color: lightgray;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    overflow: auto;
 }
 
-div {
+* {
     box-sizing: border-box;
 }
 
-div h1 {
+/* div h1 {
     box-sizing: border-box;
-    /* border: solid red 1px; */
-}
+    border: solid red 1px;
+} */
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -25,12 +26,13 @@ body {
     /* background-image: url("../images/handmadepaper/handmadepaper.png"); */
     /* background-image: url("../images/natural_paper/natural_paper.png"); */
     /* background-image: url("../images/ricepaper_v3/ricepaper_v3.png"); */
+    background-repeat: repeat;
 }
 
 .header {
     margin: 0;
     /* margin-bottom: 130px; */
-    background-color: rgba(255,255,255,0.9);
+    background-color:#ffffff;
     height: 90px;
     border-bottom: solid 2px #cccccc;
     position: fixed;
@@ -54,18 +56,18 @@ body {
     padding: 20px;
 }
 
-ul {
+.menu-container ul {
     list-style-type: none;
     margin: 0;
     padding: 30px 0 0 0;;
     height: 48px;
 }
 
-li {
+.menu-container li {
     float: right;
 }
 
-li a {
+.menu-container li a {
     display: block;
     margin-left: 8px;
     margin-right: 8px;
@@ -75,21 +77,21 @@ li a {
     color: #777777;
 }  
 
-li a:link {
+.menu-container li a:link {
     text-decoration: none;
-  }
+}
   
- li a:visited {
+.menu-container li a:visited {
     text-decoration: none;
-  }
+}
   
- li a:hover {
+.menu-container li a:hover {
     text-decoration: none;
-  }
+}
   
-li a:active {
+.menu-container li a:active {
     text-decoration: none;
-  }
+}
 
 
 .wrapper {
@@ -106,8 +108,10 @@ li a:active {
     margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     padding: 28px;
     border: solid 1px #cccccc;
+    /* overflow: auto; */
 }
 
 .content h1 {
@@ -128,19 +132,39 @@ p {
 
 .project {
     float: left;
-    margin: 0 40px 0 0;
+    margin: 20px 40px 20px 0;
+    width: 275px;
+    height: 200px;
+    position: relative;
+}
+
+.project img {
+    float: left;
+    width: 100%;
 }
 
 .project h3 {
+    /* box-sizing: border-box; */
+    width: 100%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color:  rgba(255,255,255,0.9);
     background-color: #4aaaa5;
+    margin: 0;
     padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;    
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
 }
 
 .footer,
 .push {
     clear: both;
-    overflow: auto;
+    /* overflow: auto; */
     height: 90px;
 }
 
